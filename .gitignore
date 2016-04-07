@@ -1,0 +1,23 @@
+# Global ignored files
+build/
+.vagrant/
+
+
+# Files that regulary appear in development
+*.sublime-workspace
+*.sublime-project
+*.pyc
+*.sqlite3
+app/static/CACHE/
+app/static/
+app/media/
+*.dump
+.coverage
+htmlcov/
+
+# Assets pipeline
+app/assets/bower_components/
+app/assets/node_modules/
+app/assets/vendor/
+app/assets/dist/
+prepros.cfg
