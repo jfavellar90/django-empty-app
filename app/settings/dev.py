@@ -6,7 +6,7 @@
 import os
 from os.path import join, normpath
 
-from prod import *
+from common import *
 
 
 ########## DEBUG CONFIGURATION

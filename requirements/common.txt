@@ -1,3 +1,2 @@
 # requirements/common.txt
-Django>=1.8,<1.9
-
+Django>=1.8.12,<1.9.0

@@ -9,12 +9,6 @@ from django.conf import settings
 from django.views.generic import TemplateView
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
-from profiles.routers import router as profiles_router
-from bundles.routers import router as bundles_router
-from search.routers import router as search_router
-from profiles import views
-from matching.views import FlowerProxyHandler, MatchingMdeView
-
 
 admin.autodiscover()
 
@@ -28,4 +22,3 @@ urlpatterns = patterns(
 )
 
 urlpatterns += staticfiles_urlpatterns()
-
